@@ -1,0 +1,522 @@
+{
+  "frameRate": 30,
+  "version": "4.5",
+  "isGlobal": 0,
+  "armature": [
+    {
+      "frameRate": 24,
+      "skin": [
+        {
+          "name": "",
+          "slot": [
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 27.9522,
+                    "y": 3.5351,
+                    "skY": 27.9522,
+                    "x": 19.5768
+                  },
+                  "name": "red_arm_R",
+                  "path": "red_arm_R"
+                }
+              ],
+              "name": "red_arm_R"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -85.4809,
+                    "y": -0.6126,
+                    "skY": -85.4809,
+                    "x": 2.4021
+                  },
+                  "name": "red_eye_L",
+                  "path": "red_eye_L"
+                }
+              ],
+              "name": "red_eye_L"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": 3.15,
+                    "skY": 90,
+                    "x": 88.8537
+                  },
+                  "name": "red_body",
+                  "path": "red_body"
+                }
+              ],
+              "name": "red_body"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -98.2288,
+                    "y": -0.8188,
+                    "skY": -98.2288,
+                    "x": 3.5659
+                  },
+                  "name": "red_eye_R",
+                  "path": "red_eye_R"
+                }
+              ],
+              "name": "red_eye_R"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 146.2558,
+                    "y": -3.8138,
+                    "skY": 146.2558,
+                    "x": 18.1371
+                  },
+                  "name": "red_arm_L",
+                  "path": "red_arm_L"
+                }
+              ],
+              "name": "red_arm_L"
+            }
+          ]
+        }
+      ],
+      "slot": [
+        {
+          "color": {},
+          "name": "red_body",
+          "parent": "red_body"
+        },
+        {
+          "z": 1,
+          "color": {},
+          "name": "red_arm_R",
+          "parent": "red_arm_R"
+        },
+        {
+          "z": 2,
+          "color": {},
+          "name": "red_arm_L",
+          "parent": "red_arm_L"
+        },
+        {
+          "z": 3,
+          "color": {},
+          "name": "red_eye_R",
+          "parent": "red_eye_R"
+        },
+        {
+          "z": 4,
+          "color": {},
+          "name": "red_eye_L",
+          "parent": "red_eye_L"
+        }
+      ],
+      "bone": [
+        {
+          "transform": {},
+          "name": "root"
+        },
+        {
+          "transform": {
+            "y": -26.15,
+            "x": 248.8
+          },
+          "name": "bone",
+          "parent": "root"
+        },
+        {
+          "length": 141,
+          "parent": "bone",
+          "transform": {
+            "skX": -90,
+            "y": 2.3,
+            "skY": -90,
+            "x": -249.95
+          },
+          "name": "red_body"
+        },
+        {
+          "length": 43,
+          "parent": "red_body",
+          "transform": {
+            "skX": 62.0478,
+            "y": 83.7,
+            "skY": 62.0478,
+            "x": 120.3
+          },
+          "name": "red_arm_R"
+        },
+        {
+          "length": 44,
+          "parent": "red_body",
+          "transform": {
+            "skX": -56.2558,
+            "y": -76.15,
+            "skY": -56.2558,
+            "x": 121.45
+          },
+          "name": "red_arm_L"
+        },
+        {
+          "length": 14,
+          "parent": "red_body",
+          "transform": {
+            "skX": 175.4809,
+            "y": -44.15,
+            "skY": 175.4809,
+            "x": 108.7
+          },
+          "name": "red_eye_L"
+        },
+        {
+          "length": 16,
+          "parent": "red_body",
+          "transform": {
+            "skX": -171.7712,
+            "y": 45.35,
+            "skY": -171.7712,
+            "x": 111
+          },
+          "name": "red_eye_R"
+        }
+      ],
+      "ik": [],
+      "aabb": {
+        "x": -120.5,
+        "y": -259.7036602236808,
+        "width": 245,
+        "height": 294
+      },
+      "type": "Armature",
+      "defaultActions": [
+        {
+          "gotoAndPlay": "fly"
+        }
+      ],
+      "name": "red_envelope",
+      "animation": [
+        {
+          "slot": [],
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 40,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 40,
+                  "transform": {}
+                }
+              ],
+              "name": "bone"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 40,
+                  "transform": {}
+                }
+              ],
+              "name": "red_body"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 49.1535,
+                    "skY": 49.1535
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 49.1535,
+                    "skY": 49.1535
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 20,
+                  "curve": [
+                    0,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 49.1535,
+                    "skY": 49.1535
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "red_arm_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -59.6639,
+                    "skY": -59.6639
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -59.6639,
+                    "skY": -59.6639
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 20,
+                  "curve": [
+                    0,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -59.6639,
+                    "skY": -59.6639
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "red_arm_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 5,
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.19
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 3,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.19
+                  }
+                },
+                {
+                  "duration": 20,
+                  "transform": {}
+                }
+              ],
+              "name": "red_eye_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 5,
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.19
+                  }
+                },
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 3,
+                  "curve": [
+                    0.5,
+                    0,
+                    1,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.19
+                  }
+                },
+                {
+                  "duration": 20,
+                  "transform": {}
+                }
+              ],
+              "name": "red_eye_R"
+            }
+          ],
+          "ik": [],
+          "frame": [],
+          "duration": 40,
+          "ffd": [],
+          "name": "fly",
+          "playTimes": 0
+        }
+      ]
+    }
+  ],
+  "name": "red_envelope"
+}

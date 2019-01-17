@@ -1,0 +1,5853 @@
+{
+  "armature": [
+    {
+      "frameRate": 30,
+      "slot": [
+        {
+          "name": "leg_L_2",
+          "parent": "leg_L_2",
+          "color": {}
+        },
+        {
+          "z": 1,
+          "name": "leg_L_1",
+          "parent": "leg_L_1",
+          "color": {}
+        },
+        {
+          "z": 2,
+          "name": "leg_R_2",
+          "parent": "leg_R_2",
+          "color": {}
+        },
+        {
+          "z": 3,
+          "name": "leg_R_1",
+          "parent": "leg_R_1",
+          "color": {}
+        },
+        {
+          "z": 4,
+          "name": "body",
+          "parent": "body",
+          "color": {}
+        },
+        {
+          "z": 5,
+          "name": "leg_L",
+          "parent": "leg_L",
+          "color": {}
+        },
+        {
+          "z": 6,
+          "name": "leg_R",
+          "parent": "leg_R",
+          "color": {}
+        },
+        {
+          "z": 7,
+          "name": "flower",
+          "parent": "flower",
+          "color": {}
+        },
+        {
+          "z": 8,
+          "name": "yumao",
+          "parent": "yumao",
+          "color": {}
+        },
+        {
+          "z": 9,
+          "name": "hade",
+          "parent": "hade",
+          "color": {}
+        },
+        {
+          "z": 10,
+          "name": "mouth",
+          "parent": "mouth",
+          "color": {}
+        },
+        {
+          "z": 11,
+          "name": "eye_L",
+          "parent": "eye_L",
+          "color": {}
+        },
+        {
+          "z": 12,
+          "name": "eye_R",
+          "parent": "eye_R",
+          "color": {}
+        },
+        {
+          "z": 13,
+          "name": "cannons",
+          "parent": "cannons",
+          "color": {}
+        },
+        {
+          "z": 14,
+          "name": "line",
+          "parent": "line",
+          "color": {}
+        },
+        {
+          "z": 15,
+          "displayIndex": 1,
+          "name": "boon_1",
+          "parent": "boon_1",
+          "color": {}
+        },
+        {
+          "z": 16,
+          "name": "cannons_L_3",
+          "parent": "cannons_L_3",
+          "color": {}
+        },
+        {
+          "z": 17,
+          "name": "cannons_R_3",
+          "parent": "cannons_R_3",
+          "color": {}
+        },
+        {
+          "z": 18,
+          "name": "cannons_R_2",
+          "parent": "cannons_R_2",
+          "color": {}
+        },
+        {
+          "z": 19,
+          "name": "cannons_L_2",
+          "parent": "cannons_L_2",
+          "color": {}
+        },
+        {
+          "z": 20,
+          "name": "cannons_R_1",
+          "parent": "cannons_R_1",
+          "color": {}
+        },
+        {
+          "z": 21,
+          "name": "cannons_L_1",
+          "parent": "cannons_L_1",
+          "color": {}
+        },
+        {
+          "z": 22,
+          "name": "yellow_B",
+          "parent": "yellow_B",
+          "color": {}
+        },
+        {
+          "z": 23,
+          "name": "balades",
+          "parent": "balades",
+          "color": {}
+        },
+        {
+          "z": 24,
+          "name": "yellow_S",
+          "parent": "yellow_S",
+          "color": {}
+        },
+        {
+          "z": 25,
+          "name": "woodtime",
+          "parent": "woodtime",
+          "color": {}
+        }
+      ],
+      "aabb": {
+        "x": 704.1887,
+        "y": 785.0299,
+        "width": 995.0181999999996,
+        "height": 642.8043664966121
+      },
+      "skin": [
+        {
+          "name": "",
+          "slot": [
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -111.465,
+                    "y": -0.5982,
+                    "skY": -111.465,
+                    "x": 11.9073
+                  },
+                  "name": "leg_L_2",
+                  "path": "leg_L_2"
+                }
+              ],
+              "name": "leg_L_2"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": 0.7069,
+                    "skY": 90,
+                    "x": 108.0959
+                  },
+                  "name": "woodtime",
+                  "path": "woodtime"
+                }
+              ],
+              "name": "woodtime"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": 0.8713,
+                    "skY": 90,
+                    "x": -5.5166
+                  },
+                  "name": "yellow_B",
+                  "path": "yellow_B"
+                }
+              ],
+              "name": "yellow_B"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 5.5166,
+                    "x": 57.3713
+                  },
+                  "name": "cannons_R_1",
+                  "path": "cannons_R_1"
+                }
+              ],
+              "name": "cannons_R_1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 8.4723,
+                    "y": 2.568,
+                    "skY": 8.4723,
+                    "x": -10.4524
+                  },
+                  "name": "boon_1",
+                  "path": "boon_1"
+                },
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 8.4723,
+                    "y": 3.1699,
+                    "skY": 8.4723,
+                    "x": 0.3758
+                  },
+                  "name": "boon_2",
+                  "path": "boon_2"
+                }
+              ],
+              "name": "boon_1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -90,
+                    "y": -1.8713,
+                    "skY": -90,
+                    "x": 1.0166
+                  },
+                  "name": "balades",
+                  "path": "balades"
+                }
+              ],
+              "name": "balades"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 180,
+                    "y": -10.5166,
+                    "skY": 180,
+                    "x": 12.8613
+                  },
+                  "name": "cannons_L_2",
+                  "path": "cannons_L_2"
+                }
+              ],
+              "name": "cannons_L_2"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 32.5741,
+                    "y": 1.2477,
+                    "skY": 32.5741,
+                    "x": 9.2896
+                  },
+                  "name": "eye_R",
+                  "path": "eye_R"
+                }
+              ],
+              "name": "eye_R"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -121.9581,
+                    "y": -2.559,
+                    "skY": -121.9581,
+                    "x": 45.892
+                  },
+                  "name": "leg_L",
+                  "path": "leg_L"
+                }
+              ],
+              "name": "leg_L"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 180,
+                    "y": 35.4834,
+                    "skY": 180,
+                    "x": 25.3613
+                  },
+                  "name": "cannons_L_3",
+                  "path": "cannons_L_3"
+                }
+              ],
+              "name": "cannons_L_3"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 88.0021,
+                    "y": -4.7802,
+                    "skY": 88.0021,
+                    "x": 65.3231
+                  },
+                  "name": "hade",
+                  "path": "hade"
+                }
+              ],
+              "name": "hade"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -75.9687,
+                    "y": 0.4867,
+                    "skY": -75.9687,
+                    "x": 13.7631
+                  },
+                  "name": "leg_R_2",
+                  "path": "leg_R_2"
+                }
+              ],
+              "name": "leg_R_2"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": -7.9113,
+                    "skY": 90,
+                    "x": -0.9799
+                  },
+                  "name": "yellow_S",
+                  "path": "yellow_S"
+                }
+              ],
+              "name": "yellow_S"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": -0.9613,
+                    "skY": 90,
+                    "x": 117.1701
+                  },
+                  "name": "cannons",
+                  "path": "cannons"
+                }
+              ],
+              "name": "cannons"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 180,
+                    "y": -5.5166,
+                    "skY": 180,
+                    "x": 53.1287
+                  },
+                  "name": "cannons_L_1",
+                  "path": "cannons_L_1"
+                }
+              ],
+              "name": "cannons_L_1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": -37.6777,
+                    "x": 20.7758
+                  },
+                  "name": "cannons_R_3",
+                  "path": "cannons_R_3"
+                }
+              ],
+              "name": "cannons_R_3"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -89.0452,
+                    "y": -0.2908,
+                    "skY": -89.0452,
+                    "x": 12.5566
+                  },
+                  "name": "mouth",
+                  "path": "mouth"
+                }
+              ],
+              "name": "mouth"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 99.0137,
+                    "y": -0.9387,
+                    "skY": 99.0137,
+                    "x": 66.2521
+                  },
+                  "name": "flower",
+                  "path": "flower"
+                }
+              ],
+              "name": "flower"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -68.8387,
+                    "y": 0.5445,
+                    "skY": -68.8387,
+                    "x": 11.1021
+                  },
+                  "name": "leg_R_1",
+                  "path": "leg_R_1"
+                }
+              ],
+              "name": "leg_R_1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -55.3591,
+                    "y": 1.488,
+                    "skY": -55.3591,
+                    "x": 48.6404
+                  },
+                  "name": "leg_R",
+                  "path": "leg_R"
+                }
+              ],
+              "name": "leg_R"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 16,
+                    "y": -3.2984,
+                    "skY": 16,
+                    "x": 48.205
+                  },
+                  "name": "line",
+                  "path": "line"
+                }
+              ],
+              "name": "line"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -105.9454,
+                    "y": 0.8104,
+                    "skY": -105.9454,
+                    "x": 11.7237
+                  },
+                  "name": "leg_L_1",
+                  "path": "leg_L_1"
+                }
+              ],
+              "name": "leg_L_1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 121.2637,
+                    "y": 0.4472,
+                    "skY": 121.2637,
+                    "x": 41.2008
+                  },
+                  "name": "yumao",
+                  "path": "yumao"
+                }
+              ],
+              "name": "yumao"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": -90,
+                    "y": -1.5,
+                    "skY": -90,
+                    "x": 18.05
+                  },
+                  "name": "body",
+                  "path": "body"
+                }
+              ],
+              "name": "body"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 10.2799,
+                    "x": 12.9887
+                  },
+                  "name": "cannons_R_2",
+                  "path": "cannons_R_2"
+                }
+              ],
+              "name": "cannons_R_2"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 147.2005,
+                    "y": -0.3222,
+                    "skY": 147.2005,
+                    "x": 8.7149
+                  },
+                  "name": "eye_L",
+                  "path": "eye_L"
+                }
+              ],
+              "name": "eye_L"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "slot": [
+            {
+              "name": "boon_1",
+              "frame": [
+                {
+                  "duration": 180,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            },
+            {
+              "name": "line",
+              "frame": [
+                {
+                  "duration": 180,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            }
+          ],
+          "ik": [],
+          "duration": 180,
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {
+                    "scX": 0.8,
+                    "scY": 0.8
+                  }
+                }
+              ],
+              "name": "bone"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -384.8643,
+                    "skY": -10.28,
+                    "x": -438.6093
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -384.8643,
+                    "skY": -10.28,
+                    "x": -438.6093
+                  }
+                },
+                {
+                  "duration": 32,
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 11,
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                }
+              ],
+              "name": "body"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 49.0417,
+                    "y": 14.9109,
+                    "skY": 49.0417,
+                    "x": -8.5859
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 49.0417,
+                    "y": 14.9109,
+                    "skY": 49.0417,
+                    "x": -8.5859
+                  }
+                },
+                {
+                  "duration": 34,
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 9,
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                }
+              ],
+              "name": "leg_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -93.7516,
+                    "skY": -93.7516
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -93.7516,
+                    "skY": -93.7516
+                  }
+                },
+                {
+                  "duration": 34,
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 9,
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                }
+              ],
+              "name": "leg_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 342.5021,
+                    "skY": 342.5021
+                  }
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 343.6003,
+                    "y": -4.2713,
+                    "skY": 343.6003,
+                    "x": 4.1205
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 343.6003,
+                    "y": -4.2713,
+                    "skY": 343.6003,
+                    "x": 4.1205
+                  }
+                },
+                {
+                  "duration": 134,
+                  "transform": {
+                    "skX": 342.5021,
+                    "skY": 342.5021
+                  }
+                }
+              ],
+              "name": "hade"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 1.6549,
+                    "scX": 0.9,
+                    "x": -11.9108
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 1.6549,
+                    "scX": 0.9,
+                    "x": -11.9108
+                  }
+                },
+                {
+                  "duration": 134,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 1.6549,
+                    "scX": 0.9,
+                    "x": -11.9108
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 1.6549,
+                    "scX": 0.9,
+                    "x": -11.9108
+                  }
+                },
+                {
+                  "duration": 134,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -4.2784,
+                    "skY": -4.2784
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -4.2784,
+                    "skY": -4.2784
+                  }
+                },
+                {
+                  "duration": 32,
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 34,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                }
+              ],
+              "name": "yumao"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 23,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 0.4127,
+                    "scX": 0.5,
+                    "x": -8.3478
+                  }
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 0.4127,
+                    "scX": 0.5,
+                    "x": -8.3478
+                  }
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 0.2434,
+                    "x": -4.9227
+                  }
+                },
+                {
+                  "duration": 1,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 0.0051,
+                    "scX": 0.7,
+                    "x": -0.1031
+                  }
+                },
+                {
+                  "duration": 4,
+                  "transform": {
+                    "scX": 0.7193
+                  }
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 20,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 20,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 17,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "mouth"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "flower"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "Cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 15,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 19.1905,
+                    "scX": 0.95,
+                    "scY": 1.05
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -7.381,
+                    "scX": 1.02
+                  }
+                },
+                {
+                  "duration": 147,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_B"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 15,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 22.1429,
+                    "scX": 0.9,
+                    "scY": 1.1
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -10.3334,
+                    "scX": 1.1,
+                    "scY": 0.95
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 22.1429,
+                    "scX": 0.95,
+                    "scY": 1.05
+                  }
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -0.3026,
+                    "scX": 1.0382,
+                    "scY": 0.9963
+                  }
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 120,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 45,
+                  "transform": {
+                    "skX": -1,
+                    "skY": -1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -359,
+                    "skY": -359
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -1,
+                    "skY": -1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "skX": -359,
+                    "skY": -359
+                  }
+                }
+              ],
+              "name": "balades"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 3.2708,
+                    "skY": 3.2708
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -20.9698,
+                    "skY": -20.9698
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 1.2833,
+                    "skY": 1.2833
+                  }
+                },
+                {
+                  "duration": 138,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -6.3456,
+                    "skY": -6.3456
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 16.9628,
+                    "skY": 16.9628
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -4.4346,
+                    "skY": -4.4346
+                  }
+                },
+                {
+                  "duration": 138,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_S"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 2,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 5.4157,
+                    "skY": 5.4157
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -3.0713,
+                    "skY": -3.0713
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 4.7198,
+                    "skY": 4.7198
+                  }
+                },
+                {
+                  "duration": 137,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 2,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -5.1168,
+                    "skY": -5.1168
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 8.8302,
+                    "skY": 8.8302
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -3.9733,
+                    "skY": -3.9733
+                  }
+                },
+                {
+                  "duration": 137,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -9.1469,
+                    "skY": -9.1469
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 13.3398,
+                    "skY": 13.3398
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -7.3032,
+                    "skY": -7.3032
+                  }
+                },
+                {
+                  "duration": 136,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 20,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -8.4438,
+                    "skY": -8.4438
+                  }
+                },
+                {
+                  "duration": 15,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 27.5006,
+                    "skY": 27.5006
+                  }
+                },
+                {
+                  "duration": 135,
+                  "transform": {}
+                }
+              ],
+              "name": "line"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 7.8561,
+                    "skY": 7.8561
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -7.0385,
+                    "skY": -7.0385
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 6.6349,
+                    "skY": 6.6349
+                  }
+                },
+                {
+                  "duration": 136,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "boon_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "scene"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leaf_D_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "woodtime"
+            }
+          ],
+          "playTimes": 0,
+          "name": "stand",
+          "frame": [],
+          "ffd": []
+        },
+        {
+          "slot": [
+            {
+              "name": "boon_1",
+              "frame": [
+                {
+                  "duration": 46,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 3,
+                  "tweenEasing": null,
+                  "displayIndex": 1
+                },
+                {
+                  "duration": 0,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            },
+            {
+              "name": "line",
+              "frame": [
+                {
+                  "duration": 70,
+                  "tweenEasing": null
+                },
+                {
+                  "duration": 27,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            }
+          ],
+          "ik": [],
+          "duration": 97,
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {
+                    "scX": 0.8,
+                    "scY": 0.8
+                  }
+                }
+              ],
+              "name": "bone"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 11,
+                  "transform": {}
+                },
+                {
+                  "duration": 16,
+                  "curve": [
+                    0,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -128.882,
+                    "x": -22.2982
+                  }
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 8.8554,
+                    "y": -401.1481,
+                    "skY": 8.8554,
+                    "x": 96.7449
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 14.7152,
+                    "y": -376.3969,
+                    "skY": 14.7152,
+                    "x": 198.2248
+                  }
+                },
+                {
+                  "duration": 19,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 14.7152,
+                    "y": -376.3969,
+                    "skY": 14.7152,
+                    "x": 198.2248
+                  }
+                },
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -3.0968,
+                    "y": -286.0551,
+                    "skY": -3.0968,
+                    "x": -204.2458
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.5735,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                }
+              ],
+              "name": "body"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 19,
+                  "transform": {}
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 27.2333,
+                    "skY": 27.2333
+                  }
+                },
+                {
+                  "duration": 28,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 27.2333,
+                    "skY": 27.2333
+                  }
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 24.5297,
+                    "y": 4.0495,
+                    "skY": 24.5297,
+                    "x": 8.4708
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "y": 4.0495,
+                    "x": 8.4708
+                  }
+                }
+              ],
+              "name": "leg_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 19,
+                  "transform": {}
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -14.5585,
+                    "skY": -14.5585
+                  }
+                },
+                {
+                  "duration": 28,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -60.0057,
+                    "skY": -60.0057
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                }
+              ],
+              "name": "leg_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 27,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 19.5021,
+                    "skY": 19.5021
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -0.9979,
+                    "skY": -0.9979
+                  }
+                },
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 8.8287,
+                    "skY": 8.8287
+                  }
+                },
+                {
+                  "duration": 19,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 8.8287,
+                    "skY": 8.8287
+                  }
+                },
+                {
+                  "duration": 1,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -1.9979,
+                    "skY": -1.9979
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 357.0021,
+                    "skY": 357.0021
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 342.5021,
+                    "y": 5.7602,
+                    "skY": 342.5021,
+                    "x": -9.849
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": 342.5021,
+                    "skY": 342.5021
+                  }
+                }
+              ],
+              "name": "hade"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 28,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -36.1209,
+                    "skY": -36.1209
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 20.727,
+                    "skY": 20.727
+                  }
+                },
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -25.5798,
+                    "skY": -25.5798
+                  }
+                },
+                {
+                  "duration": 19,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 12,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 31.3261,
+                    "skY": 31.3261
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -36.1209,
+                    "skY": -36.1209
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                }
+              ],
+              "name": "yumao"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 28,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 11,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 7,
+                  "transform": {}
+                }
+              ],
+              "name": "mouth"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "flower"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "Cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 189.7338
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 189.7338,
+                    "scX": 1.0165,
+                    "scY": 0.9835
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -13.6091,
+                    "scX": 1.05,
+                    "scY": 0.95
+                  }
+                },
+                {
+                  "duration": 71,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_B"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 284.2037
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 284.2037,
+                    "scX": 1.0305,
+                    "scY": 0.9796
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -10.2068,
+                    "scX": 1.15,
+                    "scY": 0.9
+                  }
+                },
+                {
+                  "duration": 73,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "balades"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -26.399,
+                    "skY": -26.399
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 3.2708,
+                    "skY": 3.2708
+                  }
+                },
+                {
+                  "duration": 70,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 21.7396,
+                    "skY": 21.7396
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -6.3456,
+                    "skY": -6.3456
+                  }
+                },
+                {
+                  "duration": 70,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_S"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -9.6087,
+                    "skY": -9.6087
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 5.4157,
+                    "skY": 5.4157
+                  }
+                },
+                {
+                  "duration": 69,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 13.8837,
+                    "skY": 13.8837
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -5.1168,
+                    "skY": -5.1168
+                  }
+                },
+                {
+                  "duration": 69,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 13.3398,
+                    "skY": 13.3398
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -9.1469,
+                    "skY": -9.1469
+                  }
+                },
+                {
+                  "duration": 68,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 11,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 27.5006,
+                    "skY": 27.5006
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -8.4438,
+                    "skY": -8.4438
+                  }
+                },
+                {
+                  "duration": 67,
+                  "transform": {}
+                }
+              ],
+              "name": "line"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -7.0385,
+                    "skY": -7.0385
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 7.8561,
+                    "skY": 7.8561
+                  }
+                },
+                {
+                  "duration": 68,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 42,
+                  "transform": {}
+                },
+                {
+                  "duration": 55,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 16.8987,
+                    "x": -119.6787
+                  }
+                }
+              ],
+              "name": "boon_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 97,
+                  "transform": {}
+                }
+              ],
+              "name": "scene"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 331.85,
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 84,
+                  "transform": {
+                    "y": 3.8
+                  }
+                }
+              ],
+              "name": "leaf_D_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 13,
+                  "transform": {
+                    "skX": 45,
+                    "skY": 45,
+                    "x": -80.0258
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -17.5,
+                    "skY": -17.5
+                  }
+                },
+                {
+                  "duration": 77,
+                  "transform": {}
+                }
+              ],
+              "name": "woodtime"
+            }
+          ],
+          "playTimes": 0,
+          "name": "entrance",
+          "frame": [],
+          "ffd": []
+        },
+        {
+          "slot": [
+            {
+              "name": "boon_1",
+              "frame": [
+                {
+                  "duration": 21,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            },
+            {
+              "name": "line",
+              "frame": [
+                {
+                  "duration": 21,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            }
+          ],
+          "ik": [],
+          "duration": 21,
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {}
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {
+                    "scX": 0.8,
+                    "scY": 0.8
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "scX": 0.8,
+                    "scY": 0.8
+                  }
+                }
+              ],
+              "name": "bone"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -420.5494,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 5,
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -40.7955,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                }
+              ],
+              "name": "body"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.0495,
+                    "x": 8.4708
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -17.6968,
+                    "y": 4.0495,
+                    "skY": -17.6968,
+                    "x": 8.4708
+                  }
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": 69.9733,
+                    "y": 27.0171,
+                    "skY": 69.9733,
+                    "x": 19.4541
+                  }
+                }
+              ],
+              "name": "leg_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 0.6647,
+                    "skY": 0.6647
+                  }
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "skX": -111.5937,
+                    "y": -22.5639,
+                    "skY": -111.5937,
+                    "x": 4.0924
+                  }
+                }
+              ],
+              "name": "leg_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 342.5021,
+                    "skY": 342.5021
+                  }
+                },
+                {
+                  "duration": 15,
+                  "transform": {
+                    "skX": 358.0021,
+                    "skY": 358.0021
+                  }
+                }
+              ],
+              "name": "hade"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 4,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 6,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 11,
+                  "transform": {
+                    "skX": 30.7216,
+                    "skY": 30.7216
+                  }
+                }
+              ],
+              "name": "yumao"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {}
+                }
+              ],
+              "name": "mouth"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "flower"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "Cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 4,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -13.6091,
+                    "scX": 1.05,
+                    "scY": 0.95
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 189.7338,
+                    "scX": 1.0165,
+                    "scY": 0.9835
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 189.7338
+                  }
+                }
+              ],
+              "name": "yellow_B"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 6,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": -10.2068,
+                    "scX": 1.15,
+                    "scY": 0.9
+                  }
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 284.2037,
+                    "scX": 1.0305,
+                    "scY": 0.9796
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 284.2037
+                  }
+                }
+              ],
+              "name": "cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "balades"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 3.2708,
+                    "skY": 3.2708
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -26.399,
+                    "skY": -26.399
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -6.3456,
+                    "skY": -6.3456
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 21.7396,
+                    "skY": 21.7396
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_S"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 2,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 5.4157,
+                    "skY": 5.4157
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -9.6087,
+                    "skY": -9.6087
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 2,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -5.1168,
+                    "skY": -5.1168
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 13.8837,
+                    "skY": 13.8837
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -9.1469,
+                    "skY": -9.1469
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 13.3398,
+                    "skY": 13.3398
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {}
+                }
+              ],
+              "name": "line"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 7.8561,
+                    "skY": 7.8561
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -7.0385,
+                    "skY": -7.0385
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {
+                    "y": 16.8987,
+                    "x": -119.6787
+                  }
+                }
+              ],
+              "name": "boon_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 21,
+                  "transform": {}
+                }
+              ],
+              "name": "scene"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "y": 3.8
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 13,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 3.8
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "y": 331.85,
+                    "scX": 0.7
+                  }
+                }
+              ],
+              "name": "leaf_D_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {},
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "skX": -17.5,
+                    "skY": -17.5
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "skX": 45,
+                    "skY": 45,
+                    "x": -80.0258
+                  }
+                }
+              ],
+              "name": "woodtime"
+            }
+          ],
+          "playTimes": 0,
+          "name": "out",
+          "frame": [],
+          "ffd": []
+        },
+        {
+          "slot": [
+            {
+              "name": "boon_1",
+              "frame": [
+                {
+                  "duration": 180,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            },
+            {
+              "name": "line",
+              "frame": [
+                {
+                  "duration": 180,
+                  "tweenEasing": null,
+                  "displayIndex": -1
+                }
+              ]
+            }
+          ],
+          "ik": [],
+          "duration": 180,
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {
+                    "scX": 0.8,
+                    "scY": 0.8
+                  }
+                }
+              ],
+              "name": "bone"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 40,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -408.1462,
+                    "skY": -10.28,
+                    "x": -449.6715
+                  }
+                },
+                {
+                  "duration": 49,
+                  "transform": {
+                    "skX": -10.28,
+                    "y": -399.9106,
+                    "skY": -10.28,
+                    "x": -445.5537
+                  }
+                }
+              ],
+              "name": "body"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 42,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": 54.7451,
+                    "y": 9.167,
+                    "skY": 54.7451,
+                    "x": 36.7078
+                  }
+                },
+                {
+                  "duration": 47,
+                  "transform": {
+                    "y": 4.045,
+                    "x": 8.4673
+                  }
+                }
+              ],
+              "name": "leg_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 42,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 36,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -90.3591,
+                    "y": -4.4291,
+                    "skY": -90.3591,
+                    "x": 21.7283
+                  }
+                },
+                {
+                  "duration": 47,
+                  "transform": {
+                    "skX": -34.6507,
+                    "skY": -34.6507
+                  }
+                }
+              ],
+              "name": "leg_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {
+                    "skX": 342.5021,
+                    "skY": 342.5021
+                  }
+                }
+              ],
+              "name": "hade"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leg_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_L"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "eye_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 40,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 7,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 9,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 8,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 34,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                },
+                {
+                  "duration": 10,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "skX": -32.8519,
+                    "skY": -32.8519
+                  }
+                },
+                {
+                  "duration": 45,
+                  "transform": {
+                    "skX": -24.7823,
+                    "skY": -24.7823
+                  }
+                }
+              ],
+              "name": "yumao"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 42,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 20,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 17,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 1,
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 5,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 0.7
+                  }
+                },
+                {
+                  "duration": 38,
+                  "transform": {}
+                }
+              ],
+              "name": "mouth"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "flower"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "Cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_B"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 45,
+                  "transform": {
+                    "skX": -1,
+                    "skY": -1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -359,
+                    "skY": -359
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -1,
+                    "skY": -1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 44,
+                  "transform": {
+                    "skX": -180,
+                    "skY": -180
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "transform": {
+                    "skX": -359,
+                    "skY": -359
+                  }
+                }
+              ],
+              "name": "balades"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "yellow_S"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_R_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "line"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "cannons_L_3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "boon_1"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "scene"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "leaf_D_R"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 180,
+                  "transform": {}
+                }
+              ],
+              "name": "woodtime"
+            }
+          ],
+          "playTimes": 0,
+          "name": "stand_2",
+          "frame": [],
+          "ffd": []
+        }
+      ],
+      "bone": [
+        {
+          "transform": {},
+          "name": "root"
+        },
+        {
+          "transform": {
+            "y": 874.7,
+            "x": -190.4
+          },
+          "name": "scene",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 1017.7,
+            "x": -197.1
+          },
+          "name": "Cannons",
+          "parent": "root"
+        },
+        {
+          "transform": {
+            "y": 1368.7842,
+            "x": 1356.8547
+          },
+          "name": "bone",
+          "parent": "root"
+        },
+        {
+          "length": 211,
+          "parent": "Cannons",
+          "transform": {
+            "skX": -90,
+            "y": 19.5,
+            "skY": -90,
+            "x": 1181.75
+          },
+          "name": "cannons"
+        },
+        {
+          "length": 99,
+          "parent": "Cannons",
+          "transform": {
+            "skX": -90,
+            "y": 44.8133,
+            "skY": -90,
+            "x": 1180.4174
+          },
+          "name": "yellow_B"
+        },
+        {
+          "length": 52,
+          "parent": "bone",
+          "transform": {
+            "skX": 90,
+            "y": -51,
+            "skY": 90,
+            "x": -321
+          },
+          "name": "body"
+        },
+        {
+          "length": 119,
+          "parent": "scene",
+          "transform": {
+            "skX": -90,
+            "y": 200.2,
+            "skY": -90,
+            "x": 1989.8
+          },
+          "name": "leaf_D_R"
+        },
+        {
+          "length": 43,
+          "parent": "body",
+          "transform": {
+            "skX": -178.0021,
+            "skY": -178.0021,
+            "x": -16.5
+          },
+          "name": "hade"
+        },
+        {
+          "length": 64,
+          "parent": "body",
+          "transform": {
+            "skX": 31.9581,
+            "y": 28.8805,
+            "skY": 31.9581,
+            "x": -29.2408
+          },
+          "name": "leg_L"
+        },
+        {
+          "length": 27,
+          "parent": "body",
+          "transform": {
+            "skX": -21.1613,
+            "y": -19,
+            "skY": -21.1613,
+            "x": 43
+          },
+          "name": "leg_R_1"
+        },
+        {
+          "transform": {
+            "y": 7.7826,
+            "x": 0.4633
+          },
+          "name": "yellow_S",
+          "parent": "yellow_B"
+        },
+        {
+          "length": 111,
+          "parent": "yellow_B",
+          "transform": {
+            "skX": 90,
+            "y": 50,
+            "skY": 90,
+            "x": -3
+          },
+          "name": "cannons_R_1"
+        },
+        {
+          "length": 87,
+          "parent": "yellow_B",
+          "transform": {
+            "skX": 180,
+            "skY": 180
+          },
+          "name": "balades"
+        },
+        {
+          "length": 66,
+          "parent": "body",
+          "transform": {
+            "skX": -34.6409,
+            "y": -23.5755,
+            "skY": -34.6409,
+            "x": -32.3138
+          },
+          "name": "leg_R"
+        },
+        {
+          "length": 110,
+          "parent": "yellow_B",
+          "transform": {
+            "skX": -90,
+            "y": -50,
+            "skY": -90,
+            "x": -3
+          },
+          "name": "cannons_L_1"
+        },
+        {
+          "length": 27,
+          "parent": "body",
+          "transform": {
+            "skX": 15.9454,
+            "y": 10,
+            "skY": 15.9454,
+            "x": 45.5
+          },
+          "name": "leg_L_1"
+        },
+        {
+          "length": 213,
+          "parent": "leaf_D_R",
+          "transform": {
+            "y": -232.9,
+            "x": 25.95
+          },
+          "name": "woodtime"
+        },
+        {
+          "length": 115,
+          "parent": "hade",
+          "transform": {
+            "skX": -11.0116,
+            "y": -0.739,
+            "skY": -11.0116,
+            "x": 58.673
+          },
+          "name": "flower"
+        },
+        {
+          "length": 27,
+          "parent": "leg_L_1",
+          "transform": {
+            "skX": 5.5196,
+            "y": -0.2889,
+            "skY": 5.5196,
+            "x": 27.2176
+          },
+          "name": "leg_L_2"
+        },
+        {
+          "length": 32,
+          "parent": "leg_R_1",
+          "transform": {
+            "skX": 7.13,
+            "y": 0.5343,
+            "skY": 7.13,
+            "x": 26.6862
+          },
+          "name": "leg_R_2"
+        },
+        {
+          "length": 81,
+          "parent": "hade",
+          "transform": {
+            "skX": -33.2616,
+            "y": -68.2027,
+            "skY": -33.2616,
+            "x": 133.7036
+          },
+          "name": "yumao"
+        },
+        {
+          "length": 60,
+          "parent": "cannons_R_1",
+          "transform": {
+            "y": 0.2367,
+            "x": 120.3826
+          },
+          "name": "cannons_R_2"
+        },
+        {
+          "length": 21,
+          "parent": "hade",
+          "transform": {
+            "skX": 55.4281,
+            "y": 29.4995,
+            "skY": 55.4281,
+            "x": 86.5811
+          },
+          "name": "eye_R"
+        },
+        {
+          "length": 26,
+          "parent": "hade",
+          "transform": {
+            "skX": -59.1983,
+            "y": -31.4111,
+            "skY": -59.1983,
+            "x": 82.9554
+          },
+          "name": "eye_L"
+        },
+        {
+          "length": 62,
+          "parent": "cannons_L_1",
+          "transform": {
+            "x": 119.7674
+          },
+          "name": "cannons_L_2"
+        },
+        {
+          "length": 30,
+          "parent": "hade",
+          "transform": {
+            "skX": 177.0473,
+            "y": -0.4474,
+            "skY": 177.0473,
+            "x": 84.5358
+          },
+          "name": "mouth"
+        },
+        {
+          "length": 53,
+          "parent": "cannons_L_2",
+          "transform": {
+            "y": -6,
+            "x": 50
+          },
+          "name": "cannons_L_3"
+        },
+        {
+          "length": 49,
+          "parent": "cannons_R_2",
+          "transform": {
+            "y": 7.9577,
+            "x": 51.7129
+          },
+          "name": "cannons_R_3"
+        },
+        {
+          "length": 123,
+          "parent": "cannons_R_2",
+          "transform": {
+            "skX": -16,
+            "y": 21.2377,
+            "skY": -16,
+            "x": 59.0602
+          },
+          "name": "line"
+        },
+        {
+          "length": 53,
+          "parent": "line",
+          "transform": {
+            "skX": 7.5277,
+            "y": -15.7474,
+            "skY": 7.5277,
+            "x": 135.6866
+          },
+          "name": "boon_1"
+        }
+      ],
+      "type": "Armature",
+      "defaultActions": [
+        {
+          "gotoAndPlay": "stand"
+        }
+      ],
+      "ik": [],
+      "name": "cannon"
+    }
+  ],
+  "version": "4.5",
+  "frameRate": 30,
+  "name": "cannon",
+  "isGlobal": 0
+}

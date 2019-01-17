@@ -1,0 +1,508 @@
+{
+  "frameRate": 30,
+  "version": "4.5",
+  "isGlobal": 0,
+  "armature": [
+    {
+      "frameRate": 30,
+      "skin": [
+        {
+          "name": "",
+          "slot": [
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 2.7799,
+                    "x": 25.4887
+                  },
+                  "name": "cloud-4",
+                  "path": "cloud-4"
+                }
+              ],
+              "name": "cloud-4"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 3.2799,
+                    "x": 79.5387
+                  },
+                  "name": "cloud-3",
+                  "path": "cloud-3"
+                }
+              ],
+              "name": "cloud-3"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 5.6799,
+                    "x": 33.1887
+                  },
+                  "name": "cloud-2",
+                  "path": "cloud-2"
+                }
+              ],
+              "name": "cloud-2"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": 3.4799,
+                    "x": 14.7887
+                  },
+                  "name": "cloud-1",
+                  "path": "cloud-1"
+                }
+              ],
+              "name": "cloud-1"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": 400,
+                    "skY": 90,
+                    "x": -400
+                  },
+                  "name": "sky-2",
+                  "path": "sky-2"
+                }
+              ],
+              "name": "sky"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "skX": 90,
+                    "y": 176.99,
+                    "skY": 90,
+                    "x": 242.57
+                  },
+                  "name": "cloud-7",
+                  "path": "cloud-7"
+                }
+              ],
+              "name": "cloud-6"
+            },
+            {
+              "display": [
+                {
+                  "type": "image",
+                  "transform": {
+                    "y": -5.8701,
+                    "x": 113.0387
+                  },
+                  "name": "cloud-5",
+                  "path": "cloud-5"
+                }
+              ],
+              "name": "cloud-5"
+            }
+          ]
+        }
+      ],
+      "slot": [
+        {
+          "color": {},
+          "name": "sky",
+          "parent": "sky"
+        },
+        {
+          "z": 1,
+          "color": {},
+          "name": "cloud-6",
+          "parent": "cloud-6"
+        },
+        {
+          "z": 2,
+          "color": {
+            "aM": 16
+          },
+          "name": "cloud-5",
+          "parent": "cloud-5"
+        },
+        {
+          "z": 3,
+          "color": {
+            "aM": 16
+          },
+          "name": "cloud-4",
+          "parent": "cloud-4"
+        },
+        {
+          "z": 4,
+          "color": {
+            "aM": 16
+          },
+          "name": "cloud-3",
+          "parent": "cloud-3"
+        },
+        {
+          "z": 5,
+          "color": {
+            "aM": 16
+          },
+          "name": "cloud-2",
+          "parent": "cloud-2"
+        },
+        {
+          "z": 6,
+          "color": {
+            "aM": 16
+          },
+          "name": "cloud-1",
+          "parent": "cloud-1"
+        },
+        {
+          "z": 7,
+          "color": {},
+          "name": "cloud-7",
+          "parent": "root",
+          "displayIndex": -1
+        },
+        {
+          "z": 8,
+          "color": {},
+          "name": "sky-2",
+          "parent": "root",
+          "displayIndex": -1
+        }
+      ],
+      "bone": [
+        {
+          "transform": {},
+          "name": "root"
+        },
+        {
+          "transform": {
+            "y": 633.65,
+            "x": -192.05
+          },
+          "name": "cloud",
+          "parent": "root"
+        },
+        {
+          "length": 290,
+          "parent": "cloud",
+          "transform": {
+            "skX": -90,
+            "y": 309.4299,
+            "skY": -90,
+            "x": 975.25
+          },
+          "name": "cloud-6"
+        },
+        {
+          "length": 109,
+          "parent": "cloud",
+          "transform": {
+            "y": -261.4205,
+            "x": 494.2
+          },
+          "name": "cloud-5"
+        },
+        {
+          "length": 27,
+          "parent": "cloud",
+          "transform": {
+            "y": -182.5705,
+            "x": 306.25
+          },
+          "name": "cloud-4"
+        },
+        {
+          "length": 45,
+          "parent": "cloud",
+          "transform": {
+            "y": -174.4705,
+            "x": 1337.05
+          },
+          "name": "cloud-2"
+        },
+        {
+          "length": 33,
+          "parent": "cloud",
+          "transform": {
+            "y": -440.2705,
+            "x": 1424.95
+          },
+          "name": "cloud-1"
+        },
+        {
+          "length": 117,
+          "parent": "cloud",
+          "transform": {
+            "skX": -90,
+            "y": -493.15,
+            "skY": -90,
+            "x": 751.9
+          },
+          "name": "sky"
+        },
+        {
+          "length": 80,
+          "parent": "cloud",
+          "transform": {
+            "y": -371.5705,
+            "x": 1543.2
+          },
+          "name": "cloud-3"
+        }
+      ],
+      "ik": [],
+      "aabb": {
+        "x": -3.8100000000002865,
+        "y": 0.5,
+        "width": 1928,
+        "height": 1080
+      },
+      "type": "Armature",
+      "defaultActions": [
+        {
+          "gotoAndPlay": "night"
+        }
+      ],
+      "name": "night",
+      "animation": [
+        {
+          "slot": [],
+          "bone": [
+            {
+              "frame": [
+                {
+                  "duration": 110,
+                  "transform": {}
+                }
+              ],
+              "name": "root"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 110,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "scX": 1.02
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-6"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 110,
+                  "transform": {}
+                }
+              ],
+              "name": "sky"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "x": 13.7429
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-5"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "x": -16.2762
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-4"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "x": 16.247
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-3"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "x": -16.2762
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-2"
+            },
+            {
+              "frame": [
+                {
+                  "duration": 50,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {}
+                },
+                {
+                  "duration": 60,
+                  "curve": [
+                    0.5,
+                    0,
+                    0.5,
+                    1
+                  ],
+                  "transform": {
+                    "x": -13.7722
+                  }
+                },
+                {
+                  "duration": 0,
+                  "transform": {}
+                }
+              ],
+              "name": "cloud-1"
+            }
+          ],
+          "ik": [],
+          "frame": [],
+          "duration": 110,
+          "ffd": [],
+          "name": "night",
+          "playTimes": 0
+        }
+      ]
+    }
+  ],
+  "name": "night"
+}

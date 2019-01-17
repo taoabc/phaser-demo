@@ -1,0 +1,36 @@
+{
+  "name": "phaser-demo-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config=./config/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint",
+    "build:dev": "webpack --config=./config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoabc/phaser-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/taoabc/phaser-demo/issues"
+  },
+  "homepage": "https://github.com/taoabc/phaser-demo#readme",
+  "dependencies": {
+    "phaser": "^3.14.0",
+    "phaser-ce": "^2.11.1",
+    "tslint": "^5.12.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.3",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

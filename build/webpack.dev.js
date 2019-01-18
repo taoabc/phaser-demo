@@ -57,7 +57,7 @@ module.exports = {
       { test: /pixi\.js/, use: ['expose-loader?PIXI'] },
       { test: /phaser-split\.js$/, use: ['expose-loader?Phaser'] },
       { test: /p2\.js/, use: ['expose-loader?p2'] },
-      { test: /dragonBones\.js/, use: ['expose-loader?dragonBones'] }
+      // { test: /dragonBones\.js/, use: ['expose-loader?dragonBones'] }
     ]
   }
 }

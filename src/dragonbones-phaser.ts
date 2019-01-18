@@ -1,5 +1,5 @@
 import Phaser from 'phaser-ce';
-import 'dragon-bones';
+// import 'dragon-bones';
 
 class DragonbonesPhaser extends Phaser.Sprite {
   private static BACKGROUND_URL: string = '../resource/background.png';

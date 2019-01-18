@@ -2,20 +2,43 @@ import Phaser from 'phaser-ce';
 import 'dragon-bones';
 
 class DragonbonesPhaser extends Phaser.Sprite {
-  private static BACKGROUND_URL: string = './resource/background.png';
-  protected readonly resources: string[] = [];
+  private static BACKGROUND_URL: string = '../resource/background.png';
+  private readonly resources: Set<string> = new Set();
+  private readonly dbsFactory = dragonBones.PhaserFactory.factory;
+  private ske: string = '';
+  private tex: string = '';
+  private atlas: string = '';
+  private readonly armatureDisplayMap: Map<string, dragonBones.PhaserArmatureDisplay> = new Map();
   // private _background: Phaser.Sprite;
 
   public constructor(game: Phaser.Game) {
     super(game, 0.0, 0.0);
-    this.resources.push(DragonbonesPhaser.BACKGROUND_URL);
+    this.resources.add(DragonbonesPhaser.BACKGROUND_URL);
+    this.x = this.stageWidth * 0.5;
+    this.y = this.stageHeight * 0.5;
+  }
 
-    setTimeout(() => {
-      this.x = this.stageWidth * 0.5;
-      this.y = this.stageHeight * 0.5;
+  public loadResources(ske: string, tex: string, atlas: string) {
+    this.resources.add(ske);
+    this.resources.add(tex);
+    this.resources.add(atlas);
+    this.ske = ske;
+    this.tex = tex;
+    this.atlas = atlas;
+    return this.loadResourceInternal();
+  }
 
-      this.loadResources();
-    });
+  public getArmatureDisplay(name: string) {
+    let armatureDisplay: dragonBones.PhaserArmatureDisplay | null | undefined =
+      this.armatureDisplayMap.get(name);
+    if (!armatureDisplay) {
+      armatureDisplay = this.dbsFactory.buildArmatureDisplay(name);
+      if (armatureDisplay) {
+        this.armatureDisplayMap.set(name, armatureDisplay);
+        this.addChild(armatureDisplay);
+      }
+    }
+    return armatureDisplay;
   }
 
   public get stageWidth() {
@@ -26,51 +49,48 @@ class DragonbonesPhaser extends Phaser.Sprite {
     return this.game.height;
   }
 
-  private loadResources(): void {
-    let loadCount = 0;
-    for (const res of this.resources) {
-      if (res.endsWith('.dbbin')) {
-        this.game.load.binary(res, res);
-      } else if (res.endsWith('.png')) {
-        this.game.load.image(res, res);
-      } else if (res.endsWith('.json')) {
-        this.game.load.json(res, res);
-      } else {
-        continue;
+  private loadResourceInternal() {
+    return new Promise((resolve, reject) => {
+      let loadCount = 0;
+      for (const res of this.resources) {
+        if (res.endsWith('.dbbin')) {
+          this.game.load.binary(res, res);
+        } else if (res.endsWith('.png')) {
+          this.game.load.image(res, res);
+        } else if (res.endsWith('.json')) {
+          this.game.load.json(res, res);
+        } else {
+          continue;
+        }
+        ++loadCount;
       }
-      ++loadCount;
-    }
 
-    this.game.load.onFileComplete.add(() => {
-      --loadCount;
-      if (loadCount === 0) {
-        const background = new Phaser.Sprite(this.game, 0, 0, DragonbonesPhaser.BACKGROUND_URL);
-        background.x = -background.texture.width / 2;
-        background.y = -background.texture.height / 2;
-        this.addChild(background);
-        this.onStart();
-      }
+      this.game.load.onFileComplete.add(() => {
+        --loadCount;
+        if (loadCount === 0) {
+          const background = new Phaser.Sprite(this.game, 0, 0, DragonbonesPhaser.BACKGROUND_URL);
+          background.x = -background.texture.width / 2;
+          background.y = -background.texture.height / 2;
+          this.addChild(background);
+          this.parseDragonBones();
+          resolve();
+        }
+      });
+
+      this.game.load.start();
     });
-
-    this.game.load.start();
   }
 
-  private onStart(): void {
-    // const factory = dragonBones.PhaserFactory.factory
-    // // console.log(this.game.cache.getItem('resource/mecha_1002_101d_show/mecha_1002_101d_show_ske.json', Phaser.Cache.JSON))
-    // factory.parseDragonBonesData(this.game.cache.getItem(RESOURCE[0], Phaser.Cache.JSON).data)
-    // // factory.parseDragonBonesData(this.game.cache.getItem('resource/dragonbones/mecha_1002_101d_show/mecha_1002_101d_show_ske.dbbin', Phaser.Cache.BINARY))
-    // factory.parseTextureAtlasData(
-    //   this.game.cache.getItem(RESOURCE[1], Phaser.Cache.JSON).data,
-    //   (this.game.cache.getImage(RESOURCE[2], true)).base
-    // )
-
-    // const armatureDisplay = factory.buildArmatureDisplay(SKE_NAME, A_NAME)
-    // armatureDisplay.animation.play('stand_2')
-
-    // armatureDisplay.x = -1920 / 2
-    // armatureDisplay.y = -1080 / 2 - 200
-    // this.addChild(armatureDisplay)
+  private parseDragonBones() {
+    if (this.ske.endsWith('.dbbin')) {
+      this.dbsFactory.parseDragonBonesData(this.game.cache.getBinary(this.ske));
+    } else if (this.ske.endsWith('.json')) {
+      this.dbsFactory.parseDragonBonesData(this.game.cache.getJSON(this.ske));
+    }
+    this.dbsFactory.parseTextureAtlasData(
+      this.game.cache.getJSON(this.tex),
+      (this.game.cache.getImage(this.atlas, true) as any).base,
+    );
   }
 }
 

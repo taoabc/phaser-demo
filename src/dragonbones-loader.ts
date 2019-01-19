@@ -35,14 +35,12 @@ class DragonbonesLoader {
   }
 
   public load(ske: string, tex: string, atlas: string) {
-    ++this.loadCount;
-    this.loadResources([ske, tex, atlas]);
-    this.game.load.onLoadComplete.addOnce(() => {
-      this.parseDragonBones(ske, tex, atlas);
-      --this.loadCount;
-      if (this.loadCount === 0 && this.loadResolve) {
-        this.loadResolve();
-      }
+    return new Promise((resolve) => {
+      this.loadResources([ske, tex, atlas]);
+      this.game.load.onLoadComplete.addOnce(() => {
+        this.parseDragonBones(ske, tex, atlas);
+        resolve();
+      });
     });
   }
 

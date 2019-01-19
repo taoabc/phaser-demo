@@ -114,11 +114,11 @@ var dragonBones;
         console.assert = function () { };
     }
 })(dragonBones || (dragonBones = {}));
-if (typeof global === 'undefined' && typeof window !== 'undefined') {
-    global = window;
-}
-if (typeof global !== "undefined") {
+if (typeof global !== 'undefined') {
     global.dragonBones = dragonBones;
+}
+else if (typeof window !== 'undefined') {
+    window.dragonBones = dragonBones;
 }
 /**
  * The MIT License (MIT)

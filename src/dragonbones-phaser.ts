@@ -1,5 +1,11 @@
 import Phaser from 'phaser-ce';
-// import 'dragon-bones';
+import 'dragon-bones';
+
+interface DragonbonesPaths {
+  readonly ske: string;
+  readonly tex: string;
+  readonly atlas: string;
+}
 
 class DragonbonesPhaser extends Phaser.Sprite {
   private static BACKGROUND_URL: string = '../resource/background.png';
@@ -8,37 +14,29 @@ class DragonbonesPhaser extends Phaser.Sprite {
   private ske: string = '';
   private tex: string = '';
   private atlas: string = '';
-  private readonly armatureDisplayMap: Map<string, dragonBones.PhaserArmatureDisplay> = new Map();
-  // private _background: Phaser.Sprite;
+  private loadResPromise: Promise<void>;
 
-  public constructor(game: Phaser.Game) {
+  public constructor(game: Phaser.Game, paths: DragonbonesPaths) {
     super(game, 0.0, 0.0);
     this.resources.add(DragonbonesPhaser.BACKGROUND_URL);
-    this.x = this.stageWidth * 0.5;
-    this.y = this.stageHeight * 0.5;
+
+    this.loadResPromise = this.loadResources(paths.ske, paths.tex, paths.atlas);
   }
 
-  public loadResources(ske: string, tex: string, atlas: string) {
-    this.resources.add(ske);
-    this.resources.add(tex);
-    this.resources.add(atlas);
-    this.ske = ske;
-    this.tex = tex;
-    this.atlas = atlas;
-    return this.loadResourceInternal();
-  }
-
-  public getArmatureDisplay(name: string) {
-    let armatureDisplay: dragonBones.PhaserArmatureDisplay | null | undefined =
-      this.armatureDisplayMap.get(name);
-    if (!armatureDisplay) {
-      armatureDisplay = this.dbsFactory.buildArmatureDisplay(name);
-      if (armatureDisplay) {
-        this.armatureDisplayMap.set(name, armatureDisplay);
-        this.addChild(armatureDisplay);
-      }
+  public createArmatureDisplay(name: string) {
+    const armatureDisplay = this.dbsFactory.buildArmatureDisplay(name);
+    if (armatureDisplay) {
+      this.addChild(armatureDisplay);
     }
     return armatureDisplay;
+  }
+
+  public removeArmatureDisplay(armatureDisplay: dragonBones.PhaserArmatureDisplay) {
+    this.removeChild(armatureDisplay);
+  }
+
+  public whenResourceLoaded() {
+    return this.loadResPromise;
   }
 
   public get stageWidth() {
@@ -49,36 +47,47 @@ class DragonbonesPhaser extends Phaser.Sprite {
     return this.game.height;
   }
 
-  private loadResourceInternal() {
+  private loadResourceInternal(): Promise<void> {
     return new Promise((resolve, reject) => {
-      let loadCount = 0;
       for (const res of this.resources) {
         if (res.endsWith('.dbbin')) {
-          this.game.load.binary(res, res);
+          if (!this.game.cache.checkBinaryKey(res)) {
+            this.game.load.binary(res, res);
+          }
         } else if (res.endsWith('.png')) {
-          this.game.load.image(res, res);
+          if (!this.game.cache.checkImageKey(res)) {
+            this.game.load.image(res, res);
+          }
         } else if (res.endsWith('.json')) {
-          this.game.load.json(res, res);
+          if (!this.game.cache.checkJSONKey(res)) {
+            this.game.load.json(res, res);
+          }
         } else {
           continue;
         }
-        ++loadCount;
       }
 
-      this.game.load.onFileComplete.add(() => {
-        --loadCount;
-        if (loadCount === 0) {
-          const background = new Phaser.Sprite(this.game, 0, 0, DragonbonesPhaser.BACKGROUND_URL);
-          background.x = -background.texture.width / 2;
-          background.y = -background.texture.height / 2;
-          this.addChild(background);
-          this.parseDragonBones();
-          resolve();
-        }
+      this.game.load.onLoadComplete.addOnce(() => {
+        const background = new Phaser.Sprite(this.game, 0, 0, DragonbonesPhaser.BACKGROUND_URL);
+        background.x = -background.texture.width / 2;
+        background.y = -background.texture.height / 2;
+        // this.addChild(background);
+        this.parseDragonBones();
+        resolve();
       });
 
       this.game.load.start();
     });
+  }
+
+  private loadResources(ske: string, tex: string, atlas: string) {
+    this.resources.add(ske);
+    this.resources.add(tex);
+    this.resources.add(atlas);
+    this.ske = ske;
+    this.tex = tex;
+    this.atlas = atlas;
+    return this.loadResourceInternal();
   }
 
   private parseDragonBones() {

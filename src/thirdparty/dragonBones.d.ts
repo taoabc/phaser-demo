@@ -271,6 +271,7 @@ declare namespace dragonBones {
         readonly eventManager: IEventDispatcher;
     }
 }
+declare let global: any;
 /**
  * The MIT License (MIT)
  *
@@ -6886,9 +6887,9 @@ declare namespace dragonBones {
         private _binaryOffset;
         private _binary;
         private _intArrayBuffer;
-        private _floatArrayBuffer;
-        private _frameIntArrayBuffer;
-        private _frameFloatArrayBuffer;
+        protected _floatArrayBuffer: Float32Array;
+        protected _frameIntArrayBuffer: Int16Array;
+        protected _frameFloatArrayBuffer: Float32Array;
         private _frameArrayBuffer;
         private _timelineArrayBuffer;
         private _inRange;

@@ -3,7 +3,7 @@ import 'p2';
 import Phaser from 'phaser-ce';
 import 'dragon-bones';
 // import DragonbonesPhaser from './dragonbones-phaser';
-import DragonbonesLoader from './dragonbones-loader';
+import DragonbonesFactory from './dragonbones-factory';
 
 // const dragonbones = window.dragonbones;
 
@@ -103,7 +103,10 @@ function getDbPaths(name: string, bin: boolean = false) {
 //   console.log('hahaha')
 // }
 
-const game = new Phaser.Game(1920, 1080, Phaser.AUTO, null, { preload, create, render });
+console.log(window.innerHeight);
+const gameApp = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, null,
+  { preload, create, render });
+const dbFactory = new DragonbonesFactory(gameApp);
 
 // async function preloadOld() {
 //   dragonBones.PhaserFactory.init(game);
@@ -117,25 +120,40 @@ const game = new Phaser.Game(1920, 1080, Phaser.AUTO, null, { preload, create, r
 //   // loadDaytime();
 // }
 
-async function preload() {
-  DragonbonesLoader.init(game);
-  const loader = new DragonbonesLoader(game);
-  loader.loadPaths(getDbPaths('right_abcd'));
-  loader.loadPaths(getDbPaths('cannon'));
-  loader.start();
+async function playCannon(game: Phaser.Game, loader: DragonbonesFactory) {
   await loader.whenLoaded();
-  const ap = DragonbonesLoader.factory.buildArmatureDisplay('cannon');
-  if (ap) {
-    ap.animation.play('stand_2');
-    game.world.add(ap);
+  const ad = loader.buildArmatureDisplay('cannon');
+  if (ad) {
+    ad.x = -500;
+    ad.y = -500;
+    ad.animation.play('stand_2');
+    game.world.add(ad);
   }
-  loader.loadPaths(getDbPaths('red_envelope'));
+}
+
+async function playRedEnvelope(game: Phaser.Game, loader: DragonbonesFactory) {
   await loader.whenLoaded();
-  console.log('haha');
+  const ad = loader.buildArmatureDisplay('red_envelope');
+  if (ad) {
+    ad.x = 150;
+    ad.y = 300;
+    ad.animation.play('fly');
+    game.world.add(ad);
+  }
+}
+
+async function preload() {
+  DragonbonesFactory.init(gameApp);
+  dbFactory.loadPaths(getDbPaths('right_abcd'));
+  dbFactory.loadPaths(getDbPaths('cannon'));
+  dbFactory.loadPaths(getDbPaths('red_envelope'));
+  dbFactory.startLoad();
 }
 
 function create() {
-  game.stage.disableVisibilityChange = true;
+  gameApp.stage.disableVisibilityChange = true;
+  playCannon(gameApp, dbFactory);
+  playRedEnvelope(gameApp, dbFactory);
   // play1();
   // play2();
   // play3();
@@ -144,5 +162,5 @@ function create() {
 }
 
 function render(): void {
-  DragonbonesLoader.factory.dragonBones.advanceTime(-1.0); // -1自动计算前进时间
+  dbFactory.advanceTimeAuto();
 }

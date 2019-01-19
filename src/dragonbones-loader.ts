@@ -24,6 +24,7 @@ class DragonbonesLoader {
 
   public constructor(game: Phaser.Game) {
     this.game = game;
+    // TODO bug
     this.loadedPromise = new Promise((resolve) => {
       this.loadResolve = resolve;
     });

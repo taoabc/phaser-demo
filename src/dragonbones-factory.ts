@@ -1,5 +1,4 @@
-import Phaser, { Loader } from 'phaser-ce';
-import 'dragon-bones';
+import Phaser from 'phaser-ce';
 
 interface DragonbonesPaths {
   readonly ske: string;

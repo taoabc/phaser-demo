@@ -1,7 +1,8 @@
 import 'pixi';
 import 'p2';
 import Phaser from 'phaser-ce';
-import 'dragon-bones';
+// import 'dragon-bones';
+import './thirdparty/dragonBones';
 // import DragonbonesPhaser from './dragonbones-phaser';
 import DragonbonesFactory from './dragonbones-factory';
 

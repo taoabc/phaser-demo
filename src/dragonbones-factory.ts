@@ -18,7 +18,6 @@ class DragonbonesFactory {
   }
 
   private readonly game: Phaser.Game;
-  private loadCount: number = 0;
   private promises: Array<Promise<void>> = [];
 
   public constructor(game: Phaser.Game) {

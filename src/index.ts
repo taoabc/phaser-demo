@@ -103,7 +103,6 @@ function getDbPaths(name: string, bin: boolean = false) {
 //   console.log('hahaha')
 // }
 
-console.log(window.innerHeight);
 const gameApp = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, null,
   { preload, create, render });
 const dbFactory = new DragonbonesFactory(gameApp);

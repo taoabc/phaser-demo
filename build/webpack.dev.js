@@ -9,7 +9,6 @@ const phaserModulePath = path.resolve(__dirname, '../node_modules/phaser-ce/');
 const phaser = path.join(phaserModulePath, 'build/custom/phaser-split.js');
 const pixi = path.join(phaserModulePath, 'build/custom/pixi.js');
 const p2 = path.join(phaserModulePath, 'build/custom/p2.js');
-const dragonBones = path.resolve(__dirname, '../src/thirdparty/dragonBones.js');
 
 module.exports = {
   mode: 'development',
@@ -24,7 +23,6 @@ module.exports = {
       'phaser-ce': phaser,
       'pixi': pixi,
       'p2': p2,
-      'dragon-bones': dragonBones
     }
   },
   plugins: [

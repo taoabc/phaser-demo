@@ -1,5 +1,4 @@
-import Phaser, { Loader } from 'phaser-ce';
-import 'dragon-bones';
+import Phaser from 'phaser-ce';
 
 interface DragonbonesPaths {
   readonly ske: string;
@@ -7,7 +6,7 @@ interface DragonbonesPaths {
   readonly atlas: string;
 }
 
-class DragonbonesLoader {
+class DragonbonesFactory {
 
   public static init(game: Phaser.Game) {
     dragonBones.PhaserFactory.init(game);
@@ -18,75 +17,87 @@ class DragonbonesLoader {
   }
 
   private readonly game: Phaser.Game;
-  private loadCount: number = 0;
-  private loadedPromise: Promise<void>;
-  private loadResolve: (() => void) | null = null;
+  private promises: Array<Promise<void>> = [];
 
   public constructor(game: Phaser.Game) {
     this.game = game;
-    // TODO bug
-    this.loadedPromise = new Promise((resolve) => {
-      this.loadResolve = resolve;
-    });
-  }
-
-  public init(game: Phaser.Game) {
-    dragonBones.PhaserFactory.init(game);
   }
 
   public load(ske: string, tex: string, atlas: string) {
-    return new Promise((resolve) => {
-      this.loadResources([ske, tex, atlas]);
-      this.game.load.onLoadComplete.addOnce(() => {
-        this.parseDragonBones(ske, tex, atlas);
+    this.promises.push(new Promise((resolve) => {
+      if (this.loadResources([ske, tex, atlas])) {
+        this.game.load.onLoadComplete.addOnce(() => {
+          this.parseDragonBones(ske, tex, atlas);
+          resolve();
+        });
+      } else {
         resolve();
-      });
-    });
+      }
+    }));
   }
 
   public loadPaths(paths: DragonbonesPaths) {
     this.load(paths.ske, paths.tex, paths.atlas);
   }
 
-  public start() {
+  public startLoad() {
     this.game.load.start();
   }
 
   public whenLoaded() {
-    return this.loadedPromise;
+    const promiseForAwait = this.promises;
+    this.promises = [];
+    return Promise.all(promiseForAwait);
+  }
+
+  public get factory() {
+    return DragonbonesFactory.factory;
+  }
+
+  public buildArmatureDisplay(armatureDisplay: string) {
+    return this.factory.buildArmatureDisplay(armatureDisplay);
+  }
+
+  public advanceTimeAuto() {
+    this.factory.dragonBones.advanceTime(-1); // -1自动计算前进时间
   }
 
   private loadResources(resources: string[]) {
+    let loadOne = false;
     for (const res of resources) {
       if (res.endsWith('.dbbin')) {
         if (!this.game.cache.checkBinaryKey(res)) {
           this.game.load.binary(res, res);
+          loadOne = true;
         }
       } else if (res.endsWith('.png')) {
         if (!this.game.cache.checkImageKey(res)) {
           this.game.load.image(res, res);
+          loadOne = true;
         }
       } else if (res.endsWith('.json')) {
         if (!this.game.cache.checkJSONKey(res)) {
           this.game.load.json(res, res);
+          loadOne = true;
         }
       } else {
         continue;
       }
     }
+    return loadOne;
   }
 
   private parseDragonBones(ske: string, tex: string, atlas: string) {
     if (ske.endsWith('.dbbin')) {
-      DragonbonesLoader.factory.parseDragonBonesData(this.game.cache.getBinary(ske));
+      this.factory.parseDragonBonesData(this.game.cache.getBinary(ske));
     } else if (ske.endsWith('.json')) {
-      DragonbonesLoader.factory.parseDragonBonesData(this.game.cache.getJSON(ske));
+      this.factory.parseDragonBonesData(this.game.cache.getJSON(ske));
     }
-    DragonbonesLoader.factory.parseTextureAtlasData(
+    this.factory.parseTextureAtlasData(
       this.game.cache.getJSON(tex),
       (this.game.cache.getImage(atlas, true) as any).base,
     );
   }
 }
 
-export default DragonbonesLoader;
+export default DragonbonesFactory;

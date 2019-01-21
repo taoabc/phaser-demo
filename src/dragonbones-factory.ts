@@ -17,23 +17,17 @@ class DragonbonesFactory {
   }
 
   private readonly game: Phaser.Game;
-  private promises: Array<Promise<void>> = [];
 
   public constructor(game: Phaser.Game) {
     this.game = game;
   }
 
   public load(ske: string, tex: string, atlas: string) {
-    this.promises.push(new Promise((resolve) => {
-      if (this.loadResources([ske, tex, atlas])) {
-        this.game.load.onLoadComplete.addOnce(() => {
-          this.parseDragonBones(ske, tex, atlas);
-          resolve();
-        });
-      } else {
-        resolve();
-      }
-    }));
+    if (this.loadResources([ske, tex, atlas])) {
+      this.game.load.onLoadComplete.addOnce(() => {
+        this.parseDragonBones(ske, tex, atlas);
+      });
+    }
   }
 
   public loadPaths(paths: DragonbonesPaths) {
@@ -45,9 +39,10 @@ class DragonbonesFactory {
   }
 
   public whenLoaded() {
-    const promiseForAwait = this.promises;
-    this.promises = [];
-    return Promise.all(promiseForAwait);
+    if (!this.game.load.hasLoaded) {
+      return new Promise((resolve) => this.game.load.onLoadComplete.addOnce(resolve));
+    }
+    return Promise.resolve();
   }
 
   public get factory() {
